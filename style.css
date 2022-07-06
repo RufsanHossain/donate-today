@@ -17,6 +17,7 @@ h2 {
   font-size: 45px;
   font-family: "Inter", sans-serif;
   text-align: center;
+  margin: 0 0 2rem 0;
 }
 
 h3 {
@@ -30,8 +31,11 @@ p {
 }
 
 section {
-  padding: 2rem;
+  padding: 4rem;
+  text-align: center;
 }
+
+/* header starts */
 
 #top-banner {
   width: 100%;
@@ -74,6 +78,8 @@ section {
   margin: 0 auto;
 }
 
+/* donate-today section starts */
+
 .donate-today {
   text-align: center;
 }
@@ -113,6 +119,8 @@ section {
   margin: 0 auto 2rem;
 }
 
+/* donate-plan section starts */
+
 .plan-items {
   display: flex;
 }
@@ -120,6 +128,7 @@ section {
 .plan-items div {
   margin-left: 22px;
   padding: 2rem;
+  text-align: left;
 }
 
 .plan-items p {
@@ -137,6 +146,29 @@ section {
 .education {
   background-color: #fff4d6;
 }
+
+/* join-us section starts */
+
+.join-us {
+  background-color: #f4f4f4;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.learn {
+  color: #0b0d17;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+  padding: 7px;
+  margin-left: 10px;
+}
+
+/* update section starts */
 
 .update div {
   width: 809px;
@@ -165,6 +197,8 @@ section {
   border: none;
   border-radius: 5px;
 }
+
+/* footer starts */
 
 footer {
   background-color: #0b0d17;
