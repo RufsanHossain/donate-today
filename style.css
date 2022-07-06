@@ -96,15 +96,15 @@ section {
   color: #ff5959;
 }
 
-input {
+.donate-today input {
   outline: none;
   border: none;
   border-bottom: 1px solid #dadada;
   width: 765px;
   padding: 10px;
   display: block;
-  margin: 0 auto 2rem;
   text-align: center;
+  margin: 0 auto 2rem;
 }
 
 .plan-items {
@@ -131,4 +131,32 @@ input {
 
 .education {
   background-color: #fff4d6;
+}
+
+.update div {
+  width: 809px;
+  height: 200px;
+  background-color: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#email {
+  background-color: #d9d9d9;
+  width: 275px;
+  padding: 12px;
+  color: #aa9f9f;
+  border: none;
+  border-radius: 5px;
+}
+
+#subscribe {
+  padding: 12px;
+  width: 157px;
+  background-color: #ff5959;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
 }
