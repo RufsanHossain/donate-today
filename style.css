@@ -30,6 +30,18 @@ p {
   margin-bottom: 2rem;
 }
 
+.button-link {
+  background-color: #ff5959;
+  color: #ffffff;
+  padding: 16px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 160px;
+  height: 56px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 section {
   padding: 4rem;
   text-align: center;
@@ -64,18 +76,6 @@ section {
   height: 56px;
   margin: 2rem auto;
   font-size: 18px;
-}
-
-.button-link {
-  background-color: #ff5959;
-  color: #ffffff;
-  padding: 16px 12px;
-  text-decoration: none;
-  border-radius: 5px;
-  width: 160px;
-  height: 56px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 /* donate-today section starts */
